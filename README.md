@@ -94,4 +94,4 @@ This project aimed to develop a model capable of performing lung segmentation on
     <li><strong>Model Performance:</strong> The trained model was evaluated on a validation dataset, achieving an accuracy of 86% in lung segmentation. The overall model accuracy was limited by its performance labelling the airways, however its performance on the lungs was closer to 90%.</li>
   </ul>
 
-![Lung Segmentation](/assets/Lung_AI-30_500.png)
+![Lung Segmentation](assets/Lung_AI_30_500(2).png)
