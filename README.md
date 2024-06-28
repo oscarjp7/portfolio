@@ -2,20 +2,20 @@
 
 ### London Air Pollution
 
-This project involves the analysis and visualisation of air quality data in London over multiple years (2013, 2016, and 2019). The goal was to observe the changes in pollution levels across different boroughs. The data was taken from the GLA and TFL Air Quality
+London Air Quality Analysis
+This project aimed to analyze and visualize air quality in London using historical data from 2013, 2016, and 2019. The objective was to observe changes in air pollution over time and identify patterns across different boroughs.
 
 <details>
   <summary>Expand for more detail</summary>
-  <p>In this project, I retrieved and stored stock data using yfinance in a SQL database to maintain a robust and scalable data storage solution. The trading strategies implemented include the Moving Average and Triple Exponential Moving Average to generate buy/sell signals in trading.</p>
-  <p>The project involved the following key steps:</p>
+  <p>For this project, I used air quality data from various years to create a comprehensive analysis of pollution levels across London's boroughs. The steps involved were as follows:</p>
   <ul>
-    <li><strong>Data Preparation:</strong> I downloaded air quality concentration data that inc.</li>
-    <li><strong>Data Extraction:</strong> I implemented the Moving Average and Triple Exponential Moving Average strategies to generate buy and sell signals based on the historical data.</li>
-    <li><strong>Data Extraction:</strong> Conducted thorough backtesting of the implemented strategies using historical data. This helped in evaluating the performance of each strategy and understanding its strengths and weaknesses.</li>
-    <li><strong>Data Extraction:</strong> Integrated visualisation tools to plot stock prices, moving averages, and trading signals. This provided a clear visual representation of the strategies and their performance over time, aiding in qualitative analysis.</li>
+    <li><strong>Data Collection:</strong> Air quality data for 2013, 2016, and 2019 were obtained from the GLA and TFL Air Quality, including the concentrations of pollutants NO2, NOx, PM10, PM10d, and PM2.5.</li>
+    <li><strong>Data Preparation:</strong> The data was cleaned and processed to ensure consistency. Points of air quality measurements were converted to a GeoDataFrame with appropriate CRS (Coordinate Reference System) to match London boroughs' geographical data.</li>
+    <li><strong>Spatial Join:</strong> The processed air quality data was spatially joined with the geographical boundaries of London boroughs to associate each measurement with its corresponding borough.</li>
+    <li><strong>Visualization:</strong> Using matplotlib and geopandas, I created plots to visualize the air quality concentrations. Separate plots were generated for 2013, 2016, and 2019, allowing a comparison of pollution levels over the years.</li>
   </ul>
-  <p>The results of the backtesting and visualisations provided insights into the effectiveness of the strategies, helping to refine and improve them further.</p>
 </details>
+
 
 ### Stock Trading Strategy Backtesting
 
@@ -33,6 +33,7 @@ Stock Trading Strategy Backtesting is a personal project where I developed and t
   </ul>
 </details>
 
+
 ### Stock Diversification Tool
 
 The Stock Diversification Tool is a personal project aimed at  identifying relationships among stocks listed on Nasdaq. Using a dataset of monthly log returns, I constructed a minimum spanning tree (MST) that connects each stock based on their correlation and developed a Python tool to provide stock recommendations based on their location in the MST.
@@ -47,6 +48,7 @@ The Stock Diversification Tool is a personal project aimed at  identifying relat
     <li><strong>Python Tool Development:</strong> Developed Python code to interact with the MST. The tool provides stock recommendations by analysing the distance and position of stocks within the MST.</li>
   </ul>
 </details>
+
 
 ### Reddit Investment Discussion Analysis
 
@@ -63,12 +65,13 @@ The Reddit Investment Discussion Analysis is a personal project designed to anal
   <p>The resulting analysis provides insights into which stocks are most frequently discussed and how they are perceived by the Reddit investment community.</p>
 </details>
 
+
 ### Movie Recommendation
 
 The aim of this group project was to provide movie recommendations based on a user-inputted prompt, such as a brief synopsis of the kind of movie they're interested in. The recommendations were generated using two adjacent methods: one based on plot similarities and the other predicting films the user would enjoy.
 
 <details>
-  <summary>Detailed Explanation</summary>
+  <summary>Expand for more detail</summary>
   <p>For this project we developed two models: A vectoriser and a deep-learning model to predict potential films. Both model worked together with the results being combined into a single list of recommendations. Below are the key components and steps involved in the project:</p>
   <ul>
     <li><strong>Data:</strong> For the vectoriser, we needed a dataset of short movie summaries that can be vectorised and compared to the user prompt. This dataset was custom made using the OpenAI API, where short summaries where made for list of films. For the deep learning model, we used a Kaggle dataset of user movie reviews.</li>
@@ -77,12 +80,13 @@ The aim of this group project was to provide movie recommendations based on a us
   </ul>
 </details>
 
+
 ### Segmentation of Lung Images using Neural Network
 
 This project aimed to develop a model capable of performing lung segmentation on chest CT scans and creating a 3D model of the lungs. The segmentation model was trained using a Convolutional Neural Network (CNN), achieving an accuracy of 86%.
 
 <details>
-  <summary>Detailed Explanation</summary>
+  <summary>Expand for more detail</summary>
   <p>This was my final year university project, where I focused on training a model to accurately identify and segment lungs in chest CT scans, identifying the left and right lungs along with the bronchial-trachea airways. Below are the key components and steps involved in the project:</p>
   <ul>
     <li><strong>Dataset Creation:</strong> To train the model, I created a custom dataset. Using MONAI Label (image labelling tool) and 3D Slicer (medical imaging tool), I semi-manually performed segmentations on a dataset of chest CT scans. This process involved careful annotation and verification to ensure high-quality data for training.</li>
