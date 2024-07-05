@@ -16,7 +16,7 @@ This project aimed to analyze and visualize air quality in London using historic
   </ul>
 </details>
 
-![Lung Segmentation](assets/air_quality.png)
+![Air Quality](/assets/air_quality.png)
 
 ### Stock Trading Strategy Backtesting
 
@@ -34,7 +34,7 @@ Stock Trading Strategy Backtesting is a personal project where I developed and t
   </ul>
 </details>
 
-![Lung Segmentation](assets/tema.png)
+![Triple Exponential Moving Average](/assets/tema.png)
 
 ### Stock Diversification Tool
 
@@ -51,7 +51,7 @@ The Stock Diversification Tool is a personal project aimed at  identifying relat
   </ul>
 </details>
 
-![Lung Segmentation](assets/mst.png)
+![Minimum Spaning Tree](/assets/mst.png)
 
 ### Reddit Investment Discussion Analysis
 
@@ -97,4 +97,4 @@ This project aimed to develop a model capable of performing lung segmentation on
     <li><strong>Model Performance:</strong> The trained model was evaluated on a validation dataset, achieving an accuracy of 86% in lung segmentation. The overall model accuracy was limited by its performance labelling the airways, however its performance on the lungs was closer to 90%.</li>
   </ul>
 
-![Lung Segmentation](assets/Lung_AI_30_500(2).png)
+![Lung Segmentation](/assets/Lung_AI_30_500(2).png)
