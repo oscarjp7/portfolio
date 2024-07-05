@@ -16,6 +16,7 @@ This project aimed to analyze and visualize air quality in London using historic
   </ul>
 </details>
 
+![Lung Segmentation](assets/air_quality.png)
 
 ### Stock Trading Strategy Backtesting
 
@@ -33,6 +34,7 @@ Stock Trading Strategy Backtesting is a personal project where I developed and t
   </ul>
 </details>
 
+![Lung Segmentation](assets/tema.png)
 
 ### Stock Diversification Tool
 
@@ -49,6 +51,7 @@ The Stock Diversification Tool is a personal project aimed at  identifying relat
   </ul>
 </details>
 
+![Lung Segmentation](assets/mst.png)
 
 ### Reddit Investment Discussion Analysis
 
