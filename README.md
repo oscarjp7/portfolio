@@ -1,6 +1,4 @@
-# Oscar Petersen's Project Portfolio
-
-## Projects
+# Projects
 
 ### London Air Pollution
 
