@@ -1,7 +1,3 @@
----
-title: "Oscar Petersen's Project Portfolio"
----
-
 ## Projects: 
 
 ### London Air Pollution
